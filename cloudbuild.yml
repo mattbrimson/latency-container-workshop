@@ -33,7 +33,7 @@ steps:
       ]
 
   # Switch 50% of all traffic over to the latest version.
-  - name: "gcr.io/cloud-builders/gcloud"
+  - name: "gcr.io/cloud-builders/gcloud" #
     args: [
         "run",
         "services",
